@@ -1,0 +1,23 @@
+{
+  "name": "revoltedge",
+  "version": "3.0.5",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:dev": "node ./utils/build.js --dev",
+    "build:prod": "node ./utils/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/greasemonkey": "^4.0.7",
+    "@types/node": "^20.11.30",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "esbuild": "^0.20.2",
+    "esbuild-css-modules-plugin": "^3.1.0",
+    "js-confuser": "^1.7.1"
+  }
+}

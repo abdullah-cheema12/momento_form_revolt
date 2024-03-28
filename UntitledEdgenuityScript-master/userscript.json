@@ -1,0 +1,32 @@
+{
+    "name": "RevoltEdge",
+    "namespace": "http://tampermonkey.net/",
+    "version": "3.11",
+    "description": "Welcome to a new generation of Revolt.",
+    "author": "wearr",
+    "match": [
+        "*://student.edgenuity.com/*",
+        "*://*.powerspeak.edgenuity.com/*",
+        "*://*.core.learn.edgenuity.com/*",
+        "*://*.core.learn.edgenuity.com/*/Error/*",
+        "*://auth.edgenuity.com/Login/Login/*",
+        "*://emissary.edgenuity.com/*",
+        "*://media.edgenuity.com/media/*",
+        "https://*.powerspeak.edgenuity.com/*",
+        "https://us-central1-crank-75395.cloudfunctions.net/Crank",
+        "*://brainly.com/*"
+    ],
+    "exclude": [
+        "https://*.edgenuity.com/Student/Authentication/LoginExistingSession"
+    ],
+    "icon": "https://cdn.discordapp.com/attachments/779212968717713419/1170474182518263888/image.png",
+    "connect": ["us-central1-crank-75395.cloudfunctions.net", "api.revoltedge.shop"],
+    "grant": [
+        "GM_addStyle",
+        "GM_deleteValue",
+        "GM_getValue",
+        "GM_setValue",
+        "GM_xmlhttpRequest",
+        "GM_getResourceText"
+    ]
+}
